@@ -1,51 +1,70 @@
-<!DOCTYPE html>
-<html lang="en-us">
-    <!--Head: contains meta, title of page, and link to css page-->
+<!doctype html>
+<html lang="en">
     <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <meta charset="UTF-8">
-        <title>Kelly Lineberry - About Page </title>
+        <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+        <title>Kelly Lineberry - About Page </title>
     </head>
 
-    
     <body>
-        <!--Header: Name and navigation bar with three links live here -->
         <header>
-            <div id="headerDiv">
-                <div id="nameDiv">
-                    <h1 id="name">Kelly Lineberry</h1>
-                </div>
-                
-                <nav>
-                    <ul>
+            <div class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4">
+                    <h5 class="text-white h4">Kelly Lineberry</h5>
+                    <ul class="navigation">
                         <li><a href=contact.html>Contact</a></li>
                         <li><a href=portfolio.html>Portfolio</a></li>
                         <li><a href="index.html">About</a></li>
                     </ul>
+                    </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h2 class="text-white h4">Kelly Lineberry</h2>
                 </nav>
             </div>
         </header>
-        <!-- Body - all the interchangable pieces whithin the website --> 
-        <div id="BodyDiv"> 
-            <p id="pageTitle">About Me</p>
 
-            <hr>
-
-            <p id="aboutPar">
-                <img id="aboutImage" 
-                    src="assets/images/aboutPic.jpg" 
-                    alt="profile photo of Kelly Lineberry">
-                words words words
-            </p>
-        </div>
-
+        <main>
+                <div class="card mb-3" style="max-width: 960px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="assets/images/aboutPic.jpg" class="card-img"
+                            alt="profile photo of Kelly Lineberry"> 
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">About Me</h5>
+                            <p class="card-text">I am a talented coder with an interest in building the most effective, user-friendly, and beautiful software possible. I come from a background in higher-education, eco-tourism, and corporate finance which has given me the opportunity to collaborate with a large variety of people. I have experience with marketing, management, corporate culture, and human resources. I am currently sharpening my development and coding skills through a Trilogy Bootcamp hosted at the University of Denver, which will wrap up in April 2020.
+                                    <br>
+                                    Outside of work I love volunteering at organic farms, learning new programming languages, working my way through every recipe in the family cookbook, and indulging my love for seeing new places.
+                                    <br>
+                                    If you’d like to learn more about me, and what I can offer your company, please reach out via email (lineberry.kelly@gmail.com).</p>
+                            <p class="card-text"><small class="text-muted">Last updated December 2019</small></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
     <!-- Footer -->
-    <footer>
-        <div id="footDiv"></div>
-        <p id="pFooter">Copyright &copy; </p>
-    </footer>
+        <footer class="footer">
+            <div id="footDiv"></div>
+            <p id="pFooter">Copyright &copy; </p>
+        </footer>
     </body>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
