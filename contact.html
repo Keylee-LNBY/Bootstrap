@@ -1,57 +1,72 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <!--Head: contains meta, title of page, and link to css page-->
-    <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <meta charset="UTF-8">
-        <title>Kelly Lineberry - About Page </title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Bootstrap & CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    </head>
+    <title>Kelly Lineberry - Contact Page </title>  
+</head>
 
-    
-    <!--Body: Contact Page -->
-    <body>
-    <!--Header: Name and navigation bar with three links live here -->
+<body>
     <header>
-        <div id="headerDiv">
-            <div id="nameDiv">
-                <p id="name">Kelly Lineberry</p>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <h3 class="navbar-brand">Kelly Lineberry</h3>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
             </div>
-            
-            <nav>
-                <ul>
-                    <li><a href=contact.html>Contact</a></li>
-                    <li><a href=portfolio.html>Portfolio</a></li>
-                    <li><a href="index.html">About</a></li>
-                </ul>
-            </nav>
-        </div>
+        </nav>
     </header>
-        <div id="BodyDiv"> 
-            <p id="pageTitle">Contact</p>
-            <hr>
-            <form action="action_page.php">
 
-                    <label for="contatName">First Name</label>
-                    <input type="text" id="contactName" name="contactsName" placeholder="John Smith">
-                
-                    <label for="lname">Email</label>
-                    <input type="text" id="contactEmail" name="email" placeholder="example@gmail.com">
+    <div class="aside-1"></div>
 
-                    <label for="subject">Message</label>
-                    <textarea id="message" name="message" placeholder=" " style="height:200px"></textarea>
+    <main class="container main">
+        <!-- Look up forms in bootstrap -->
+    </main>
 
-                    <input type="submit" value="Submit">
+    <div class="aside-2"></div>
 
-            </form>
-            
-        </div>
-        <!--Footer-->
-        <footer>
-            <div id="footDiv"></div>
-            <p id="pFooter">Copyright &copy; </p>
-        </footer>
-    </body>
+    <footer>
+        <div id="footDiv"></div>
+        <p id="pFooter">Copyright &copy; </p>
+    </footer>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
 </html>
+
+<!-- <div id="BodyDiv"> 
+    <p id="pageTitle">Contact</p>
+    <hr>
+    <form action="action_page.php">
+
+            <label for="contatName">First Name</label>
+            <input type="text" id="contactName" name="contactsName" placeholder="John Smith">
+        
+            <label for="lname">Email</label>
+            <input type="text" id="contactEmail" name="email" placeholder="example@gmail.com">
+
+            <label for="subject">Message</label>
+            <textarea id="message" name="message" placeholder=" " style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+    </form>
+    
+</div> -->
