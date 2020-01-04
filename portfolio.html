@@ -14,17 +14,17 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <h3 class="navbar-brand">Kelly Lineberry</h3>
+    <header id="navHeader">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light row">
+            <h3 class="navbar-brand col-md-6 col-sm-12">Kelly Lineberry</h3>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
+                <div class="navbar-nav col-md-6 col-sm-12">
+                <a class="nav-item nav-link" href="index.html">Home </a>
+                <a class="nav-item nav-link active" href="portfolio.html"> Portfolio <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="contact.html">Contact </a> 
                 </div>
             </div>
         </nav>
@@ -32,7 +32,7 @@
 
     <div class="aside-1"></div>
 
-    <main class="container main">
+    <main class="container main" id="portfolioMain">
         <div class="row">
             <div class="col">
                 <h2 id="pageTitle">Portfolio</h2>
@@ -40,37 +40,66 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col" id="hangman">
-                <div class="portfolioTitles">Hangman</div>
+        <div class="column-1">
+            <div class="row portfolioLinks" id="hangman">
+                <div class="portfolioTitles col-sm-12">Hangman</div>
             </div>
-            <div class="col" id="rpgGame">
-                <div class="portfolioTitles">RPG Game</div>
+            <div class="row portfolioLinks" id="rpgGame">
+                <div class="portfolioTitles col-sm-12">RPG Game</div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col" id="triviaGame">
-                <div class="portfolioTitles">Trivia Game</div>
-            </div>
-            <div class="col" id="rutgersInfo">
-                <div class="portfolioTitles">Rutgers Info Widget</div>
+            <div class="row portfolioLinks" id="triviaGame">
+                <div class="portfolioTitles col-sm-12">Trivia Game</div>
             </div>
         </div>
-        <div class="row">
-            <div class="col" id="rockPaper">
-                <div class="portTableNames">Rock Paper Scissors</div>
+        <div class="column-2">
+            <div class="row portfolioLinks" id="rutgersInfo">
+                <div class="portfolioTitles col-sm-12">Rutgers Info Widget</div>
             </div>
-            <div class="col">
+            <div class="row portfolioLinks" id="rockPaper">
+                <div class="portfolioTitles col-sm-12">Rock Paper Scissors</div>
+            </div>
+            <div class="row ">
                 <!-- Placeholder -->
             </div>
         </div>
+        
     </main>
 
     <div class="aside-2"></div>
 
-    <footer>
-        <div id="footDiv"></div>
-        <p id="pFooter">Copyright &copy; </p>
+    <footer class="sticky-footer-wrapper">
+        <div class="row">
+            <div class="col-md-4">
+                <p id="links">
+                    Profile Links:
+                </p>
+
+                <div class="ProfileLinks">
+                    <a href="www.linkedin.com/in/kellylineberry" 
+                    class="Links" target="_blank">Linkedin Profile</a>
+                </div>
+                <div class="ProfileLinks">
+                    <a href="https://github.com/Keylee-LNBY" 
+                    class="Links" target="_blank">GitHub Profile</a>
+                </div>
+            </div>
+
+            <div class="col-md-4" id="contact">
+                <p>
+                    Contact:
+                    <br>
+                    Email: Lineberry.Kelly@gmail.com
+                    <br>
+                    Phone: 434-907-0481
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <p id="copyright">
+                    &copy; Kelly Lineberry - Updated January 2019
+                </p>
+            </div>
+        </div>
     </footer>
     
     <!-- Optional JavaScript -->

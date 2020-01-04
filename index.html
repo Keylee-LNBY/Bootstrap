@@ -14,16 +14,16 @@
 
 <body>
     <header id="navHeader">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <h3 class="navbar-brand">Kelly Lineberry</h3>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light row">
+            <h3 class="navbar-brand col-md-6 col-sm-12">Kelly Lineberry</h3>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav col-md-6 col-sm-12">
                 <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
+                <a class="nav-item nav-link" href="portfolio.html"> Portfolio </a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a> 
                 </div>
             </div>
         </nav>
@@ -31,13 +31,15 @@
 
     <div class="aside-1"></div>
 
-    <main class="container main">
-        <div>
-            <h3>About</h3>
+    <main class="container main" id="aboutMain">
+        <div class="row">
+            <h2>About</h2>
             <hr>
+        </div>
+        <div class="row">
             <div>
-                <img class="img-responsive" src="./assets/images/aboutPic.jpg" alt="A headshot of Kelly Lineberry.">
-                <p id="aboutParagraph">
+                <img class="img-responsive" id="about-image" src="./assets/images/aboutPic.jpg" alt="A headshot of Kelly Lineberry.">
+                <p id="aboutParagraph" class="wrap-text">
                     I am a talented coder with an interest in building the most effective, user-friendly, and beautiful software possible. I come from a background in higher-education, eco-tourism, and corporate finance which has given me the opportunity to collaborate with a large variety of people. I have experience with marketing, management, corporate culture, and human resources. I am currently sharpening my development and coding skills through a Trilogy Bootcamp hosted at the University of Denver, which will wrap up in April 2020.
                     <br>
                     Outside of work I love volunteering at organic farms, learning new programming languages, working my way through every recipe in the family cookbook, and indulging my love for seeing new places.
@@ -59,11 +61,12 @@
                 </p>
 
                 <div class="ProfileLinks">
-                    <a href="white-text hoverable" href="https://www.linkedin.com/in/kellylineberry/" class="Links"
-                        target="_blank">Linkedin Profile</a>
+                    <a href="white-text hoverable" href="https://www.linkedin.com/in/kellylineberry/" 
+                    class="Links" target="_blank">Linkedin Profile</a>
                 </div>
                 <div class="ProfileLinks">
-                    <a href="https://github.com/Keylee-LNBY" class="Links" target="_blank">GitHub Profile</a>
+                    <a href="https://github.com/Keylee-LNBY" 
+                    class="Links" target="_blank">GitHub Profile</a>
                 </div>
             </div>
 
